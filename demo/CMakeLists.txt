@@ -4,7 +4,7 @@ project(cvlib_demo VERSION 0.1.0 LANGUAGES CXX DESCRIPTION "Computer Vision Algo
 
 set(CMAKE_CXX_STANDARD 14)
 
-find_package(OpenCV 4.1.1 REQUIRED)
+# find_package(OpenCV 4.1.1 REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 file(GLOB SRC *.cpp *.hpp)
